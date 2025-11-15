@@ -53,17 +53,22 @@ How it Teaches:
 You drag "tools" (like useState) from a "Tool Belt".
 Rule #1: If you drop the hook in the correct "Top-Level" dropzone, it snaps into place, and the component preview gains new powers (like memory).
 Invalid Placement: If you try to drop the hook inside a "Bad Drop Zone" (an if block), it's rejected, and the Tutor Bot explains why this isn't allowed (Hooks must be called in the same order).
+
 Local Development
+
 Prerequisites
 Node.js (v18+)
 npm
 Vercel CLI (Recommended for running the API locally)
+
 Installation
 Clone the repository (or create the files locally).
+
 Install dependencies:
 npm install lucide-react nanoid
 
 (Note: react-redux and @reduxjs/toolkit are not used, as state is managed by useContext and useReducer).
+
 Running the App
 This command runs the Vite server and the serverless function in the /api folder, simulating the production environment perfectly.
 (One time) Link your project: vercel link
@@ -71,6 +76,7 @@ Run the dev server:
 vercel dev
 
 This will start your app on a local URL (like http://localhost:3000).
+
 Deployment
 Push your code to GitHub.
 Import the project on Vercel.
